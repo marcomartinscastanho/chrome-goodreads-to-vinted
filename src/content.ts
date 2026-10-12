@@ -119,7 +119,7 @@ function observePage(): void {
           continue;
         }
 
-        if (node.matches("tr.bookalike.review")) {
+        if (node.matches("tr.bookalike.review") && node instanceof HTMLTableRowElement) {
           processRow(node);
         }
 
