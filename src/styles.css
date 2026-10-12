@@ -1,0 +1,23 @@
+.goodreads-vinted-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px 9px;
+  margin-top: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.goodreads-vinted-link,
+.goodreads-vinted-link:visited {
+  color: #00635d;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.goodreads-vinted-link:hover,
+.goodreads-vinted-link:focus-visible {
+  color: #004d47;
+  text-decoration: underline;
+}
