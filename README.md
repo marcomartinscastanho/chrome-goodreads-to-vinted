@@ -1,6 +1,7 @@
 # Goodreads to Vinted
 
 A Manifest V3 Chrome extension that adds English and Portuguese Vinted search links to Goodreads review-list rows.
+Completely done by ChatGPT. I do not claim authorship of any of this.
 
 ## Features
 
