@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Goodreads Vinted Links",
+  "version": "1.0.0",
+  "description": "Adds English and Portuguese Vinted search links to Goodreads review lists.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.goodreads.com/review/list/*"],
+      "js": ["dist/content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
